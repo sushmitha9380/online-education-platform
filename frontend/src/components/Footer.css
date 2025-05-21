@@ -1,0 +1,87 @@
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+  justify-content: center; /* Centers all items horizontally */
+  text-align: center;
+  margin-top: 40px;
+}
+
+.section {
+  flex: 1;
+  min-width: 200px; /* Ensures each section has a minimum width */
+  margin: 10px;
+}
+
+.section h3 {
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: darkcyan;
+ 
+}
+
+.section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.section ul li {
+  margin: 5px 0;
+  font-size: 12px;
+}
+
+.footer-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.aaa {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  
+}
+
+.aaa a {
+  margin: 0 15px;
+  font-size: 10px !important;
+}
+.aaa a:hover{
+  color: blue;
+}
+
+.social, .app {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center; 
+  
+}
+.social a, .app a{
+  font-size: 10px !important;
+}
+
+.social a:hover {
+  color: darkviolet;
+}
+.app a:hover{
+  color: #df3d3d;
+}
+
+.footer-icons a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 14px;
+}
+
+
+
+/* footer span:hover {
+  color: deepskyblue;
+} */

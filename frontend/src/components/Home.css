@@ -1,0 +1,292 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background: url('https://img.freepik.com/free-photo/hands-working-digital-device-network-graphic-overlay_53876-138487.jpg?ga=GA1.1.117250999.1733555721&semt=ais_hybrid') no-repeat center center;
+    /* background-size: cover; */
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    height: 400px; 
+    
+}
+
+
+header h1, header p {
+    position: relative;
+    z-index: 2; 
+}
+
+
+.more{
+    color:rgb(2, 24, 13);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow:0px 2px  black ;
+    margin-top: 40px;
+}
+section {
+    padding: 20px;
+    text-align: center;
+}
+section h2{
+    font-weight: 100;
+}
+.explore{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow:0 2px grey ;
+}
+.features {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px;
+    margin: 20px 0;
+    margin-top: 25px;
+}
+
+.feature {
+    background: rgb(240, 224, 231);
+    border-radius: 10px;
+    padding: 20px;
+    color: rgb(20, 16, 16);
+    transition: transform 0.3s ease;
+    box-shadow: 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.feature:hover{
+  transform: translateY(-5px); 
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.programs {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.program {
+    background:rgb(245, 172, 172);
+    border: 2px solid #EEE;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    transition: transform 0.3s ease;
+    box-shadow: 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  }
+  .program:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+
+  }
+.program1 {
+    background: lightblue;
+    border: 2px solid #EEE;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    transition: transform 0.3s ease;
+    box-shadow: 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.program1:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+.program2 {
+    background: lightyellow;
+    border: 2px solid #EEE;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    transition: transform 0.3s ease;
+    box-shadow: 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.program2:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+.program3 {
+    background:rgb(166, 219, 166);
+    border: 2px solid #EEE;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    transition: transform 0.3s ease;
+    box-shadow: 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.program3:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.program h3 {
+    margin: 0;
+}
+.program1 h3 {
+    margin: 0;
+}
+.program2 h3 {
+    margin: 0;
+}
+.program3 h3 {
+    margin: 0;
+}
+.program button {
+    margin-top: 10px;
+    background: #6E3DC6;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;}
+.program button:hover{
+    cursor: pointer;
+    background-color: #2e8b92;
+}  
+.program1 button {
+    margin-top: 10px;
+    background: #6E3DC6;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.program1 button:hover{
+    cursor: pointer;
+    background-color: #2e8b92;
+  }  
+
+.program2 button {
+    margin-top: 10px;
+    background: #6E3DC6;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.program2 button:hover{
+    cursor: pointer;
+    background-color: #2e8b92;
+  }  
+.program3 button {
+    margin-top: 10px;
+    background: #6E3DC6;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.program3 button:hover{
+    cursor: pointer;
+    background-color: #2e8b92;
+  }  
+
+.contact {
+    background: #6E3DC6;
+    color: white;
+    padding: 40px 20px;
+}
+
+.contact form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact input, .contact button {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+.contact button {
+    background: #FFCE00;
+    color: #6E3DC6;
+    cursor: pointer;
+}
+
+.carousel {
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  }
+  .carousel-item img {
+    object-fit: cover;
+    filter: brightness(70%); 
+  }
+  
+
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .carousel-caption h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffdd57; 
+  }
+  
+  .carousel-caption p {
+    font-size: 1.2rem;
+    color: #fff;
+  }
+  .why-choose {
+    display: flex; 
+    align-items: center; 
+    justify-content: flex-start; 
+    padding: 10px;
+    background-color: rgb(244, 233, 250); 
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial';
+    margin-top: 40px;
+  }
+  
+  .why-choose img {
+    width: 25%; 
+    height: auto; 
+    border-radius: 15px; 
+  }
+  
+  .why-choose .text-content {
+    margin-left: 30px; 
+  }
+  
+  .why-choose h2 {
+    margin-top: 20px;
+  }
+  .why-choose h2 span{
+    font-weight: bold;
+  }
+  .why-choose p {
+    margin-top: 15px;
+  }
+  .why-choose p span{
+    color: blue;
+  }
+  .why {
+    padding: 30px;
+    background-color: rgb(244, 233, 250);
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+  }
+ .no{
+    text-decoration: none;
+  }
+ 
+  
+  

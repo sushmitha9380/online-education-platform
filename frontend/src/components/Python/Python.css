@@ -1,0 +1,29 @@
+
+.button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;  
+    border: none;
+    border-radius: 4px;
+    text-align: left;
+    font-family: "Arial";
+    color: white;
+  }
+  
+  .button:hover {
+    background-color: green;  
+}
+.w{
+  text-align: center;
+}
+.advantage, .disadvantage {
+  font-weight: bold;
+  color: #2b37b4;
+}
+.disadvantage {
+  color: #e5321e;
+}

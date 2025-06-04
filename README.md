@@ -1,10 +1,10 @@
-# 🎓 Online Education Platform
+#  Online Education Platform
 
 An interactive **Online Learning Platform** built using **React.js**, designed to deliver beginner-friendly tutorials in web development. This platform covers key topics like **HTML**, **CSS**, **JavaScript**, and **Python** through structured components, rich visuals, and easy navigation.
 
 ---
 
-## 🧭 Overview
+##  Overview
 
 This project is a modern frontend-only educational web app aimed at learners looking to get started with programming and web development. It simulates a mini learning management system (LMS) by offering modular content and an intuitive user interface.
 
@@ -12,24 +12,24 @@ The app includes multiple subjects, responsive layout, sidebar navigation, login
 
 ---
 
-## ✨ Features
+##  Features
 
-- ✅ **Subject-Wise Learning Modules**:
+-  **Subject-Wise Learning Modules**:
   - HTML, CSS, JavaScript, Python
   - Each subject includes dedicated layout and navigation
-- 🧭 **Sidebar Navigation** for seamless browsing
-- 👩‍🏫 **Login & Signup Pages** with basic form structure
-- 🏠 **Homepage with Welcome Banner & Introduction**
-- 📧 **Contact Form** integrated (with placeholder or Mailchimp)
-- 📱 **Responsive Design**: Works across desktop, tablet, and mobile
-- 🎨 **Styled Components**: Clean and minimal CSS across modules
-- 🖼️ **Media-Rich Content** with icons, banners, and visual elements
-- 📦 **Organized Code Structure** with reusable components
-- 🌐 **Ready for Deployment** on platforms like GitHub Pages
+-  **Sidebar Navigation** for seamless browsing
+-  **Login & Signup Pages** with basic form structure
+-  **Homepage with Welcome Banner & Introduction**
+-  **Contact Form** integrated (with placeholder or Mailchimp)
+-  **Responsive Design**: Works across desktop, tablet, and mobile
+-  **Styled Components**: Clean and minimal CSS across modules
+-  **Media-Rich Content** with icons, banners, and visual elements
+-  **Organized Code Structure** with reusable components
+-  **Ready for Deployment** on platforms like GitHub Pages
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Frontend**: React.js, JavaScript (ES6+), HTML5, CSS3
 - **Components**: Functional components using hooks
@@ -41,16 +41,18 @@ The app includes multiple subjects, responsive layout, sidebar navigation, login
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
-### 📦 Installation
+###  Installation
 
 ```bash
 cd frontend
 npm install
 npm start
+```
 
-🌐 Open in browser
+### Open in browser
+```bash
 Once started, the app will be available at:
 http://localhost:3000
 ```

@@ -53,9 +53,12 @@ npm start
 🌐 Open in browser
 Once started, the app will be available at:
 http://localhost:3000
+```
 
-🙋‍♀️ Author
-Sushmitha
-📧 Email: rssushmitha839@gmail.com
-🔗 GitHub: github.com/sushmitha9380
+---
+## Contact
+*For any questions or suggestions, please contact:*
 
+- Sushmitha
+- Email: sushmithars5992@gmail.com
+- GitHub: sushmitha9380

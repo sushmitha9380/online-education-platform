@@ -59,6 +59,8 @@ http://localhost:3000
 ## Contact
 *For any questions or suggestions, please contact:*
 
-- Sushmitha
-- Email: sushmithars5992@gmail.com
-- GitHub: sushmitha9380
+Sushmitha R S
+
+Email: sushmithars5992@gmail.com
+
+GitHub: sushmitha9380
